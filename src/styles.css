@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(248, 233, 232);
+
+}
+
+
+:root{
+    --primary-color: #4a44bd;
+    --secondary-color: #f5f2fe;
+    --box-shadow:5px 5px 5px 5px rgb(247, 199, 223);
+    
+}
+
+h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 60px;
+    margin:-20px;
+}
+h2{
+    margin-top: 40px;
+}
+
+
+h1,h2,h3{
+    display: block;
+    text-align: center;
+}
+
+.gotolinks{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 4px;
+    text-decoration: none;
+        text-transform: capitalize;
+    
+
+}
+
+
+
+.contactMe{
+    padding: 20px 15px;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    margin: 20px;
+}
+
+.aboutMe{
+    box-shadow: var(--box-shadow);
+    padding: 20px 15px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    margin: 20px;
+}
+.contactMe:hover {
+    color:var(--primary-color);
+    background-color: var(--secondary-color);
+
+}
+.aboutMe:hover {
+    background-color: var(--secondary-color);
+}
+/* .contactMe{color: white;
+    text-decoration: none;
+}
+.aboutMe{
+    color: #663399;
+    text-decoration: none;
+} */
+
+/* .about{
+    padding: 15px 7px;
+    color: rebeccapurple;
+border-color: rebeccapurple;
+margin-left: 15px;
+        
+}
+
+button{
+border-radius: 5px;
+box-shadow: 3px 3px 3px 3px rgb(169, 156, 182);
+}
+
+.contact:hover{
+    color:white;
+    background-color: #432066;
+
+}
+button.about:hover{
+   background-color:white;
+}
+ */
+
+
+ 
+
+ 
+/* about.html */
+
+.wholePage{
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.title{
+    font-size: 75px;
+    margin-top: -2px;
+    margin-bottom: -20px;
+
+}
+
+a{
+text-decoration: none;
+}
+.cover{
+    margin-top: 50px;
+}
+
+.job{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+
+
+h4.lasttext{
+font-size: 50px;
+padding: 20px;
+
+}
+
+small.smallText{
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+
+}
+.card{
+    background-color: rgb(248, 233, 232);
+}
+
+
+.controlTitle{
+    background-color: rgb(248, 233, 232);
+}
+
+
+
+
