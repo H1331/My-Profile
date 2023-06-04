@@ -5,7 +5,8 @@ body{
 
 }
 
-
+/* font-family: 'Bree Serif', serif;
+font-family: 'Fira Sans', sans-serif; */
 :root{
     --primary-color: #4a44bd;
     --secondary-color: #f5f2fe;
@@ -30,6 +31,7 @@ h2{
 h1,h2,h3{
     display: block;
     text-align: center;
+    font-family: 'Fira Sans', sans-serif; 
 }
 
 .gotolinks{
@@ -40,6 +42,7 @@ h1,h2,h3{
     border-radius: 4px;
     text-decoration: none;
         text-transform: capitalize;
+
     
 
 }
@@ -157,5 +160,25 @@ small.smallText{
 }
 
 
+@media (max-width:576px) {
+    .buttonClick{
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+        
+       
+
+        
+    }
+    h3{
+        margin-top: 10px;
+    }
+}
 
 
+
+.card-text{
+    font-family: Bree Serif', serif;
+}
